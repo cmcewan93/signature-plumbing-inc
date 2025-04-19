@@ -102,17 +102,23 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  padding: 0 1rem;
+  position: relative;
 }
 
 .backToHome {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   transition: all 0.3s ease;
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
 }
 
 .backToHome:hover {
@@ -125,11 +131,32 @@
     padding: 2rem 0;
   }
 
+  .pageHeader {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .pageTitle {
+    position: static;
+    transform: none;
     font-size: 2rem;
+    line-height: 1.2;
+    padding: 0 1rem;
+  }
+
+  .pageDescription {
+    font-size: 1rem;
+    padding: 0 1rem;
   }
 
   .blogGrid {
     grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+
+  .backToHome {
+    margin-left: 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 } 

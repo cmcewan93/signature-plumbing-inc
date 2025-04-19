@@ -96,23 +96,18 @@ export default function BlogPost() {
             </p>
 
             <div className={styles.callToAction}>
-              <h2>Choose Signature Plumbing for Reliable Drain Cleaning Services in the GTA</h2>
+              <h2>Need Professional Plumbing Help?</h2>
               <p>
-                At Signature Plumbing, we offer expert drain cleaning services for homeowners throughout 
-                the Greater Toronto Area. Whether you're dealing with a current clog or looking to prevent 
-                future issues, our licensed plumbers are here to help.
-              </p>
-              <p>
-                Don't wait for a plumbing emergency. Contact us today to schedule your drain cleaning 
-                appointment and keep your home's plumbing system in peak condition.
+                If you're experiencing plumbing issues or need expert advice, don't hesitate to reach out to our team.
+                We're here to help with all your plumbing needs.
               </p>
               <div className={styles.contactButtons}>
-                <Link href="tel:416-450-9504" className={styles.phoneButton}>
-                  📞 Call us at 416-450-9504
-                </Link>
-                <Link href="#contact" className={styles.contactButton}>
-                  Book Online
-                </Link>
+                <a href="tel:416-450-9504" className={`${styles.button} ${styles.primary}`}>
+                  Call Us: 416-450-9504
+                </a>
+                <a href="/#contact" className={`${styles.button} ${styles.secondary}`}>
+                  Contact Us
+                </a>
               </div>
             </div>
           </div>
