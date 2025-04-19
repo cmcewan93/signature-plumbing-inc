@@ -277,19 +277,22 @@ a.secondary {
 .hero {
   position: relative;
   height: 100vh;
-  min-height: 600px;
+  min-height: 800px;
+  max-height: 1200px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('/landing-page.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   color: white;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .heroContent {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .heroContent h2 {
@@ -801,8 +804,12 @@ a.secondary {
 
 @media (max-width: 1024px) {
   .hero {
-    height: 80vh;
-    min-height: 500px;
+    min-height: 700px;
+    max-height: 1000px;
+  }
+  
+  .heroContent h2 {
+    font-size: 2.5rem;
   }
 }
 
@@ -810,8 +817,21 @@ a.secondary {
   .hero {
     height: 70vh;
     min-height: 400px;
+    max-height: none;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('/landing-page.png') center/cover no-repeat fixed;
+      url('/landing-page.png') center/cover no-repeat;
+  }
+  
+  .heroContent {
+    padding: 0 1.5rem;
+  }
+  
+  .heroContent h2 {
+    font-size: 2rem;
+  }
+  
+  .heroContent p {
+    font-size: 1.1rem;
   }
 }
 
@@ -819,5 +839,20 @@ a.secondary {
   .hero {
     height: 60vh;
     min-height: 300px;
+    max-height: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/landing-page.png') center/cover no-repeat;
+  }
+  
+  .heroContent {
+    padding: 0 1rem;
+  }
+  
+  .heroContent h2 {
+    font-size: 1.75rem;
+  }
+  
+  .heroContent p {
+    font-size: 1rem;
   }
 }

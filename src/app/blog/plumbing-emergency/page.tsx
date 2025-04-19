@@ -86,7 +86,7 @@ export default function PlumbingEmergencyPage() {
               Don't let a plumbing emergency turn into a disaster. Signature Plumbing offers 24/7 emergency services to handle any plumbing crisis quickly and professionally.
             </p>
             <div className={styles.contactButtons}>
-              <Link href="/contact" className={`${styles.button} ${styles.primary}`}>
+              <Link href="/#contact" className={`${styles.button} ${styles.primary}`}>
                 Contact Us Now
               </Link>
               <Link href="tel:+1234567890" className={`${styles.button} ${styles.secondary}`}>

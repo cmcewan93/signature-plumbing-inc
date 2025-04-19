@@ -88,11 +88,11 @@ export default function SinkFaucetRepairsPage() {
               Don't let small plumbing issues turn into big problems. Signature Plumbing's expert technicians can quickly diagnose and fix any sink or faucet issue, ensuring your fixtures work efficiently and last longer.
             </p>
             <div className={styles.contactButtons}>
-              <Link href="/contact" className="button primary">
+              <Link href="/#contact" className="button primary">
                 Schedule Repair
               </Link>
-              <Link href="tel:+1234567890" className="button secondary">
-                Call: (123) 456-7890
+              <Link href="tel:416-450-9504" className="button secondary">
+                Call: 416-450-9504
               </Link>
             </div>
           </div>

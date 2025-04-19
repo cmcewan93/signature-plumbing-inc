@@ -91,7 +91,7 @@ export default function BlogPost() {
                 <Link href="tel:416-450-9504" className={styles.phoneButton}>
                   📞 Call us at 416-450-9504
                 </Link>
-                <Link href="/#contact" className={styles.contactButton}>
+                <Link href="/#contact" className={`${styles.button} ${styles.primary}`}>
                   Book Online
                 </Link>
               </div>

@@ -10,7 +10,7 @@ export default function Footer() {
           <h3>Contact Us</h3>
           <div className={styles.contactInfo}>
             <p>Phone: <a href="tel:416-450-9504">416-450-9504</a></p>
-            <p>Email: <a href="mailto:info@signatureplumbing.ca">info@signatureplumbing.ca</a></p>
+            <p>Email: <a href="mailto:signatureplumbinggta@gmail.com">signatureplumbinggta@gmail.com</a></p>
           </div>
         </div>
         <div className={styles.footerSection}>

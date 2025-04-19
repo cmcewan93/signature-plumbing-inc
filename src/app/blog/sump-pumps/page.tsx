@@ -72,11 +72,11 @@ export default function SumpPumpsPage() {
               Don't wait for a flood to discover your sump pump isn't working properly. Signature Plumbing offers professional sump pump installation, maintenance, and repair services to keep your basement dry year-round.
             </p>
             <div className={styles.contactButtons}>
-              <Link href="/contact" className="button primary">
+              <Link href="/#contact" className="button primary">
                 Schedule Service
               </Link>
-              <Link href="tel:+1234567890" className="button secondary">
-                Call: (123) 456-7890
+              <Link href="tel:416-450-9504" className="button secondary">
+                Call: 416-450-9504
               </Link>
             </div>
           </div>

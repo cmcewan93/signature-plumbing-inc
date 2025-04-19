@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './page.module.css';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Plumbing Blog | Signature Plumbing',
@@ -95,35 +96,38 @@ const blogPosts = [
 
 export default function BlogPage() {
   return (
-    <main className={styles.blogPage}>
-      <div className="container">
-        <div className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Plumbing Tips, Repairs & Maintenance Advice</h1>
-          <Link href="/" className={styles.backToHome}>
-            Back to Home
-          </Link>
-        </div>
-        <p className={styles.pageDescription}>
-          Expert insights and practical advice for maintaining your home's plumbing system.
-        </p>
-        
-        <div className={styles.blogGrid}>
-          {blogPosts.map((post) => (
-            <article key={post.slug} className={styles.blogCard}>
-              <Link href={`/blog/${post.slug}`} className={styles.blogLink}>
-                <div className={styles.blogCardContent}>
-                  <span className={styles.blogCategory}>{post.category}</span>
-                  <h2 className={styles.blogCardTitle}>{post.title}</h2>
-                  <p className={styles.blogExcerpt}>{post.excerpt}</p>
-                  <div className={styles.blogMeta}>
-                    <time dateTime={post.date}>{post.date}</time>
+    <>
+      <main className={styles.blogPage}>
+        <div className="container">
+          <div className={styles.pageHeader}>
+            <h1 className={styles.pageTitle}>Plumbing Tips, Repairs & Maintenance Advice</h1>
+            <Link href="/" className={styles.backToHome}>
+              Back to Home
+            </Link>
+          </div>
+          <p className={styles.pageDescription}>
+            Expert insights and practical advice for maintaining your home's plumbing system.
+          </p>
+          
+          <div className={styles.blogGrid}>
+            {blogPosts.map((post) => (
+              <article key={post.slug} className={styles.blogCard}>
+                <Link href={`/blog/${post.slug}`} className={styles.blogLink}>
+                  <div className={styles.blogCardContent}>
+                    <span className={styles.blogCategory}>{post.category}</span>
+                    <h2 className={styles.blogCardTitle}>{post.title}</h2>
+                    <p className={styles.blogExcerpt}>{post.excerpt}</p>
+                    <div className={styles.blogMeta}>
+                      <time dateTime={post.date}>{post.date}</time>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            </article>
-          ))}
+                </Link>
+              </article>
+            ))}
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
+      <Footer />
+    </>
   );
 } 

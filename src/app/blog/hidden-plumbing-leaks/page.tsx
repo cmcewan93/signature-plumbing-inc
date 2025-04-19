@@ -88,11 +88,11 @@ export default function HiddenPlumbingLeaksPage() {
               Don't wait for visible damage to appear. Signature Plumbing offers advanced leak detection services using state-of-the-art equipment to find and fix hidden leaks before they cause major damage to your home.
             </p>
             <div className={styles.contactButtons}>
-              <Link href="/contact" className="button primary">
+              <Link href="/#contact" className="button primary">
                 Schedule Inspection
               </Link>
-              <Link href="tel:+1234567890" className="button secondary">
-                Call: (123) 456-7890
+              <Link href="tel:416-450-9504" className="button secondary">
+                Call: 416-450-9504
               </Link>
             </div>
           </div>
