@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import styles from './MobileMenu.module.css';
 
 export default function MobileMenu() {
@@ -12,25 +13,28 @@ export default function MobileMenu() {
 
   return (
     <div className={styles.mobileMenu}>
-      <button 
-        className={`${styles.menuButton} ${isOpen ? styles.open : ''}`}
-        onClick={toggleMenu}
-        aria-label="Toggle mobile menu"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
+      <button className={styles.menuButton} onClick={toggleMenu}>
+        <span className={styles.menuIcon}>{isOpen ? '✕' : '☰'}</span>
       </button>
-
-      <nav className={`${styles.mobileNav} ${isOpen ? styles.active : ''}`}>
-        <ul>
-          <li><a href="#services" onClick={toggleMenu}>Services</a></li>
-          <li><a href="#about" onClick={toggleMenu}>About</a></li>
-          <li><a href="/blog" onClick={toggleMenu}>Blog</a></li>
-          <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
-          <li><a href="tel:416-450-9504" className={styles.phoneNumber}>416-450-9504</a></li>
-        </ul>
-      </nav>
+      {isOpen && (
+        <nav className={styles.menuItems}>
+          <Link href="/" className={styles.menuItem} onClick={toggleMenu}>
+            Home
+          </Link>
+          <Link href="/services" className={styles.menuItem} onClick={toggleMenu}>
+            Services
+          </Link>
+          <Link href="/about" className={styles.menuItem} onClick={toggleMenu}>
+            About
+          </Link>
+          <Link href="/blog" className={styles.menuItem} onClick={toggleMenu}>
+            Blog
+          </Link>
+          <Link href="/contact" className={styles.menuItem} onClick={toggleMenu}>
+            Contact
+          </Link>
+        </nav>
+      )}
     </div>
   );
 } 
