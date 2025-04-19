@@ -1,0 +1,22 @@
+{
+  "name": "Signature Plumbing",
+  "short_name": "Signature Plumbing",
+  "description": "Professional plumbing services in Toronto including emergency repairs, installations, and maintenance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#42B7E9",
+  "icons": [
+    {
+      "src": "/url-logo.png",
+      "sizes": "180x65",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["plumbing", "services", "home improvement"],
+  "lang": "en-CA",
+  "dir": "ltr",
+  "prefer_related_applications": false
+} 

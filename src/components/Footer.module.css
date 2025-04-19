@@ -1,0 +1,81 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contactInfo p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.contactInfo a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactInfo a:hover {
+  color: #42B7E9;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.socialIcon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.socialIcon:hover {
+  fill: #42B7E9;
+}
+
+.copyright {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+  
+  .contactInfo {
+    gap: 0.75rem;
+  }
+
+  .socialLinks {
+    gap: 1rem;
+  }
+
+  .socialIcon {
+    width: 20px;
+    height: 20px;
+  }
+} 
