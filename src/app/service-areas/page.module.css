@@ -1,0 +1,257 @@
+.serviceAreasContainer {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.serviceAreasContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.serviceAreasHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.serviceAreasTitle {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.serviceAreasDescription {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.neighborhoodGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.neighborhoodCard {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+  padding: 2rem;
+}
+
+.neighborhoodCard:hover {
+  transform: translateY(-5px);
+}
+
+.neighborhoodCard a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.neighborhoodCard h2 {
+  color: var(--primary-color);
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.neighborhoodCard p {
+  color: #666;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.5;
+}
+
+.neighborhoodCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.neighborhoodCard li {
+  padding-left: 1.5rem;
+  position: relative;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.neighborhoodCard li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+
+.learnMore {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-top: auto;
+}
+
+.learnMore:hover {
+  color: var(--primary-color-dark);
+}
+
+.serviceAreaBenefits {
+  margin: 3rem 0;
+}
+
+.serviceAreaBenefits h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.benefitCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefitCard h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.benefitCard p {
+  color: #666;
+}
+
+.callToAction {
+  text-align: center;
+  background: white;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.callToAction h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.callToAction p {
+  color: #666;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.phoneButton,
+.contactButton {
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.phoneButton {
+  background-color: #3498db;
+  color: white;
+}
+
+.phoneButton:hover {
+  background-color: #2980b9;
+}
+
+.contactButton {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.contactButton:hover {
+  background-color: #27ae60;
+}
+
+.backToHome {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.backToHome:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .serviceAreasTitle {
+    font-size: 2rem;
+  }
+
+  .neighborhoodGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .neighborhoodCard {
+    padding: 1.5rem;
+  }
+
+  .neighborhoodCard h2 {
+    font-size: 1.25rem;
+  }
+
+  .neighborhoodCard p {
+    margin-bottom: 1rem;
+  }
+
+  .neighborhoodCard ul {
+    margin-bottom: 1rem;
+  }
+
+  .neighborhoodCard li {
+    margin-bottom: 0.5rem;
+  }
+
+  .contactButtons {
+    flex-direction: column;
+  }
+
+  .phoneButton,
+  .contactButton {
+    width: 100%;
+    text-align: center;
+  }
+
+  .backToHome {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+} 

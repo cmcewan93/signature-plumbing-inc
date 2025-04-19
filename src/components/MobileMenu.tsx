@@ -27,6 +27,9 @@ export default function MobileMenu() {
         <Link href="#services" className={styles.menuItem} onClick={toggleMenu}>
           Services
         </Link>
+        <Link href="/service-areas" className={styles.menuItem} onClick={toggleMenu}>
+          Service Areas
+        </Link>
         <Link href="#about" className={styles.menuItem} onClick={toggleMenu}>
           About
         </Link>

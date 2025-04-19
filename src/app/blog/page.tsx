@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import styles from './page.module.css';
 import Footer from '@/components/Footer';
+import Breadcrumbs from '@/components/Breadcrumbs';
 
 export const metadata = {
   title: 'Plumbing Blog | Signature Plumbing',
-  description: 'Expert plumbing tips, advice, and insights from Signature Plumbing. Learn about common plumbing issues, maintenance tips, and more.',
+  description: "Expert plumbing tips, maintenance advice, and industry insights from Signature Plumbing. Learn how to maintain your home's plumbing system.",
+  keywords: 'plumbing blog, plumbing tips, plumbing maintenance, home plumbing advice'
 };
 
 const blogPosts = [
@@ -94,16 +96,19 @@ const blogPosts = [
   },
 ];
 
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: 'Blog', href: '/blog' }
+];
+
 export default function BlogPage() {
   return (
     <>
       <main className={styles.blogPage}>
         <div className="container">
           <div className={styles.pageHeader}>
+            <Breadcrumbs items={breadcrumbs} />
             <h1 className={styles.pageTitle}>Plumbing Tips, Repairs & Maintenance Advice</h1>
-            <Link href="/" className={styles.backToHome}>
-              Back to Home
-            </Link>
           </div>
           <p className={styles.pageDescription}>
             Expert insights and practical advice for maintaining your home's plumbing system.

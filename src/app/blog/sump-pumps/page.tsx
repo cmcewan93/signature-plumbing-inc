@@ -2,85 +2,162 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'How Sump Pumps Protect Your Basement from Flooding | Signature Plumbing Blog',
-  description: 'Learn how sump pumps work, why they are essential for basement protection, and how to maintain them properly.',
+  title: 'Sump Pumps in Etobicoke: Protecting Your Basement from Flooding | Signature Plumbing Blog',
+  description: 'Learn how sump pumps work and why they are essential for protecting your Etobicoke basement from water damage during heavy rains and spring thaws.',
 };
 
-export default function SumpPumpsPage() {
+export default function BlogPost() {
   return (
     <main className={styles.blogPostContainer}>
-      <div className={styles.blogPost}>
-        <div className={styles.blogPostHeader}>
-          <Link href="/blog" className={styles.backToBlog}>
-            ← Back to Blog
-          </Link>
-          <span className={styles.blogCategory}>Prevention</span>
-          <h1 className={styles.blogPostTitle}>How Sump Pumps Protect Your Basement from Flooding</h1>
-          <div className={styles.blogMeta}>
-            <time dateTime="2024-04-15">April 15, 2024</time>
-          </div>
-        </div>
-
-        <div className={styles.blogContent}>
-          <p>
-            A sump pump is one of the most important pieces of equipment in your home's flood prevention system. It works silently in the background to keep your basement dry and protect your property from water damage. Here's everything you need to know about sump pumps and their crucial role in home protection.
-          </p>
-
-          <h2>How Sump Pumps Work</h2>
-          <p>
-            Sump pumps are installed in a pit (sump basin) in the lowest part of your basement or crawlspace. When water enters the pit, the pump automatically activates and removes the water, directing it away from your home's foundation.
-          </p>
-
-          <h2>Types of Sump Pumps</h2>
-          <ul className={styles.benefitsList}>
-            <li><strong>Submersible Pumps:</strong> Installed inside the sump pit, these are quieter and more powerful</li>
-            <li><strong>Pedestal Pumps:</strong> Motor sits above the pit, making it easier to service but louder</li>
-            <li><strong>Battery Backup Pumps:</strong> Provide protection during power outages</li>
-            <li><strong>Water-Powered Pumps:</strong> Use municipal water pressure as a backup</li>
-          </ul>
-
-          <h2>Benefits of a Sump Pump</h2>
-          <ul className={styles.benefitsList}>
-            <li>Prevents basement flooding</li>
-            <li>Reduces humidity and mold growth</li>
-            <li>Protects your foundation</li>
-            <li>Maintains property value</li>
-            <li>Prevents structural damage</li>
-          </ul>
-
-          <h2>Maintenance Tips</h2>
-          <ol>
-            <li>Test your pump monthly by pouring water into the pit</li>
-            <li>Clean the pit of debris quarterly</li>
-            <li>Check the discharge line for blockages</li>
-            <li>Inspect the power cord and connections</li>
-            <li>Test the backup battery system if you have one</li>
-          </ol>
-
-          <h2>Signs Your Sump Pump Needs Attention</h2>
-          <ul className={styles.warningSigns}>
-            <li>Unusual noises during operation</li>
-            <li>Frequent cycling on and off</li>
-            <li>Visible rust or corrosion</li>
-            <li>Water not being pumped out effectively</li>
-            <li>Age (most pumps last 7-10 years)</li>
-          </ul>
-
-          <div className={styles.callToAction}>
-            <h2>Need Sump Pump Installation or Maintenance?</h2>
-            <p>
-              Don't wait for a flood to discover your sump pump isn't working properly. Signature Plumbing offers professional sump pump installation, maintenance, and repair services to keep your basement dry year-round.
-            </p>
-            <div className={styles.contactButtons}>
-              <Link href="/#contact" className="button primary">
-                Schedule Service
-              </Link>
-              <Link href="tel:416-450-9504" className="button secondary">
-                Call: 416-450-9504
-              </Link>
+      <div className="container">
+        <article className={styles.blogPost}>
+          <div className={styles.blogPostHeader}>
+            <Link href="/blog" className={styles.backToBlog}>
+              ← Back to Blog
+            </Link>
+            <span className={styles.blogCategory}>Prevention</span>
+            <h1 className={styles.blogPostTitle}>
+              Sump Pumps in Etobicoke: Protecting Your Basement from Flooding
+            </h1>
+            <div className={styles.blogMeta}>
+              <time dateTime="2024-04-15">April 15, 2024</time>
             </div>
           </div>
-        </div>
+
+          <div className={styles.blogContent}>
+            <p>
+              In Etobicoke, where heavy rainfall and spring thaws are common, a properly functioning sump pump is 
+              essential for protecting your basement from flooding. At Signature Plumbing, we've helped countless 
+              homeowners across Etobicoke, Toronto, and the GTA install and maintain sump pumps to prevent water 
+              damage and protect their properties.
+            </p>
+
+            <h2>Why Sump Pumps Are Essential in Etobicoke</h2>
+            <p>
+              Our area's unique conditions make sump pumps particularly important:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>High Water Table</strong>
+                Many Etobicoke neighborhoods have high water tables that can lead to basement flooding.
+              </li>
+              <li>
+                <strong>Heavy Rainfall</strong>
+                Our area experiences significant rainfall, especially during spring and summer months.
+              </li>
+              <li>
+                <strong>Spring Thaw</strong>
+                Rapid snowmelt can overwhelm drainage systems and lead to basement flooding.
+              </li>
+              <li>
+                <strong>Older Infrastructure</strong>
+                Many Etobicoke homes have aging drainage systems that may not handle modern water volumes.
+              </li>
+            </ul>
+
+            <h2>Types of Sump Pumps for Etobicoke Homes</h2>
+            <p>
+              We recommend these sump pump options for our area:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Submersible Pumps</strong>
+                Ideal for most Etobicoke homes, these are quiet and efficient for regular use.
+              </li>
+              <li>
+                <strong>Pedestal Pumps</strong>
+                Good for shallow pits and easier maintenance in our climate.
+              </li>
+              <li>
+                <strong>Battery Backup Systems</strong>
+                Essential for power outages during storms in our area.
+              </li>
+              <li>
+                <strong>Water-Powered Backup</strong>
+                Reliable alternative that works even during extended power outages.
+              </li>
+            </ul>
+
+            <h2>Signs Your Sump Pump Needs Attention</h2>
+            <p>
+              Watch for these warning signs in your Etobicoke home:
+            </p>
+            <ul className={styles.warningSigns}>
+              <li>Unusual noises during operation</li>
+              <li>Frequent cycling or running continuously</li>
+              <li>Visible rust or corrosion</li>
+              <li>Water in the basement after heavy rain</li>
+              <li>Foul odors from the sump pit</li>
+            </ul>
+
+            <h2>Maintenance Tips for Etobicoke Homes</h2>
+            <p>
+              Keep your sump pump running efficiently with these local tips:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Regular Testing</strong>
+                Test your pump monthly and before major storms.
+              </li>
+              <li>
+                <strong>Clean the Pit</strong>
+                Remove debris and check for proper drainage.
+              </li>
+              <li>
+                <strong>Check the Discharge Line</strong>
+                Ensure it's clear and extends away from your foundation.
+              </li>
+              <li>
+                <strong>Battery Maintenance</strong>
+                Replace backup batteries every 2-3 years.
+              </li>
+              <li>
+                <strong>Professional Inspection</strong>
+                Schedule annual maintenance before spring thaw.
+              </li>
+            </ul>
+
+            <h2>Additional Flood Prevention Measures</h2>
+            <p>
+              Complement your sump pump with these local solutions:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Backwater Valve</strong>
+                Prevents sewer backups during heavy rains.
+              </li>
+              <li>
+                <strong>Proper Grading</strong>
+                Ensure your yard slopes away from the foundation.
+              </li>
+              <li>
+                <strong>Window Well Covers</strong>
+                Protect basement windows from water intrusion.
+              </li>
+              <li>
+                <strong>Gutter Maintenance</strong>
+                Keep gutters clear to direct water away from your home.
+              </li>
+            </ul>
+
+            <div className={styles.callToAction}>
+              <h2>Need Sump Pump Service in Etobicoke?</h2>
+              <p>
+                Our experienced plumbers serve all Etobicoke neighborhoods, including Islington, Kingsway, 
+                New Toronto, and surrounding areas. We offer sump pump installation, maintenance, and repair 
+                services to protect your basement from flooding.
+              </p>
+              <div className={styles.contactButtons}>
+                <a href="tel:416-450-9504" className={styles.phoneButton}>
+                  Call Now: 416-450-9504
+                </a>
+                <a href="/#contact" className={styles.contactButton}>
+                  Schedule Service
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
       </div>
     </main>
   );

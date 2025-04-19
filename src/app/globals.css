@@ -172,3 +172,8 @@ img {
     text-decoration: underline;
   }
 }
+
+/* Ensure the main content starts immediately after the nav */
+main {
+  margin-top: 0;
+}

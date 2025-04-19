@@ -1,0 +1,206 @@
+.serviceAreaContainer {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.serviceAreaContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.serviceAreaHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.backToAreas {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.backToAreas:hover {
+  text-decoration: underline;
+}
+
+.serviceAreaTitle {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.serviceAreaDescription {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.serviceAreaDetails {
+  display: grid;
+  gap: 3rem;
+}
+
+.areaOverview,
+.commonIssues,
+.ourServices,
+.localTestimonials,
+.areaBenefits {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.areaOverview h2,
+.commonIssues h2,
+.ourServices h2,
+.localTestimonials h2,
+.areaBenefits h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.areaFeatures h3 {
+  color: #444;
+  margin: 1.5rem 0 1rem;
+  font-size: 1.4rem;
+}
+
+.areaFeatures ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #666;
+}
+
+.issuesList,
+.servicesList {
+  list-style: none;
+  padding: 0;
+}
+
+.issuesList li,
+.servicesList li {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.issuesList li strong,
+.servicesList li strong {
+  display: block;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.testimonial {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.testimonial cite {
+  color: #666;
+  font-style: normal;
+}
+
+.benefitsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.benefitsList li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  color: #555;
+}
+
+.benefitsList li:before {
+  content: "✓";
+  color: #28a745;
+  position: absolute;
+  left: 0;
+}
+
+.callToAction {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.callToAction h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.callToAction p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contactButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.phoneButton,
+.contactButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.phoneButton {
+  background: white;
+  color: #007bff;
+}
+
+.contactButton {
+  background: #0056b3;
+  color: white;
+}
+
+.phoneButton:hover,
+.contactButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .serviceAreaTitle {
+    font-size: 2rem;
+  }
+
+  .serviceAreaDescription {
+    font-size: 1rem;
+  }
+
+  .contactButtons {
+    flex-direction: column;
+  }
+
+  .phoneButton,
+  .contactButton {
+    width: 100%;
+    text-align: center;
+  }
+} 

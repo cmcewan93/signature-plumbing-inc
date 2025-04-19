@@ -43,6 +43,7 @@ export default function Home() {
             </Link>
             <ul className={styles.navLinks}>
               <li><Link href="#services">Services</Link></li>
+              <li><Link href="/service-areas">Service Areas</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="#contact">Contact</Link></li>
               <li><Link href="tel:416-450-9504" className={styles.phoneNumber}>416-450-9504</Link></li>
@@ -142,7 +143,7 @@ export default function Home() {
             <div className={styles.reviewCard}>
               <div className={styles.reviewerInfo}>
                 <h4>Yusef Ahmed</h4>
-                <p>Mississauga, ON</p>
+                <p>Etobicoke, ON</p>
               </div>
               <div className={styles.reviewStars}>★★★★★</div>
               <p className={styles.reviewContent}>

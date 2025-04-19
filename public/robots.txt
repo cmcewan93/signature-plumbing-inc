@@ -3,12 +3,13 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://signatureplumbing.ca/sitemap.xml
+Sitemap: https://signature-plumbing.ca/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /api/
+Disallow: /_next/
 
 # Crawl-delay for all bots
 Crawl-delay: 10 

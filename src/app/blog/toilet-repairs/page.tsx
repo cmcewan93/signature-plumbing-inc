@@ -2,8 +2,8 @@ import Link from 'next/link';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'Toilet Repairs and Replacements: When to Fix vs. Replace | Signature Plumbing Blog',
-  description: 'Learn when to repair or replace your toilet, common toilet problems, and how to choose the right toilet for your home.',
+  title: 'Toilet Repairs in Etobicoke: Common Issues in Older Homes | Signature Plumbing Blog',
+  description: 'Learn about common toilet issues in older Etobicoke homes, when to repair vs. replace, and how to maintain your toilet for optimal performance.',
 };
 
 export default function BlogPost() {
@@ -17,7 +17,7 @@ export default function BlogPost() {
             </Link>
             <span className={styles.blogCategory}>Repairs</span>
             <h1 className={styles.blogPostTitle}>
-              Toilet Repairs and Replacements: When to Fix vs. Replace
+              Toilet Repairs in Etobicoke: Common Issues in Older Homes
             </h1>
             <div className={styles.blogMeta}>
               <time dateTime="2024-04-19">April 19, 2024</time>
@@ -26,78 +26,149 @@ export default function BlogPost() {
 
           <div className={styles.blogContent}>
             <p>
-              Your toilet is one of the most used fixtures in your home, and when it's not working properly, 
-              it can cause significant inconvenience. At Signature Plumbing, we help homeowners decide whether 
-              to repair or replace their toilets based on the specific situation. Here's what you need to know 
-              about common toilet problems and when it's time for a replacement.
+              In Etobicoke's older neighborhoods like Islington, Kingsway, and New Toronto, toilet issues are common 
+              due to aging plumbing systems and hard water conditions. At Signature Plumbing, we've helped countless 
+              homeowners across Etobicoke, Toronto, and the GTA address toilet problems and make informed decisions 
+              about repairs versus replacements.
             </p>
 
-            <h2>Common Toilet Problems and Repairs</h2>
+            <h2>Common Toilet Issues in Etobicoke Homes</h2>
+            <p>
+              Our area's unique conditions contribute to these frequent toilet problems:
+            </p>
             <ul className={styles.benefitsList}>
               <li>
-                <strong>Running Toilet</strong>
-                <p>Often caused by a faulty flapper or fill valve. Usually a simple repair that can save water and money.</p>
+                <strong>Hard Water Buildup</strong>
+                Mineral deposits from our water supply can affect toilet components and reduce efficiency.
               </li>
               <li>
-                <strong>Weak Flush</strong>
-                <p>May be due to clogged rim jets or low water level in the tank. Can often be fixed with cleaning or adjustment.</p>
+                <strong>Aging Flush Valves</strong>
+                Older homes often have outdated flush mechanisms that need updating.
               </li>
               <li>
-                <strong>Leaking Base</strong>
-                <p>Usually indicates a worn wax ring. Requires immediate attention to prevent water damage.</p>
+                <strong>Wax Ring Deterioration</strong>
+                Temperature fluctuations in our climate can cause wax rings to fail prematurely.
               </li>
               <li>
-                <strong>Clogged Toilet</strong>
-                <p>Can often be resolved with a plunger or auger, but recurring clogs may indicate a deeper issue.</p>
+                <strong>Supply Line Issues</strong>
+                Older homes may have corroded or outdated supply lines that need replacement.
               </li>
               <li>
-                <strong>Loose Handle</strong>
-                <p>A simple repair that involves tightening or replacing the handle mechanism.</p>
+                <strong>Clogged Pipes</strong>
+                Tree roots and aging sewer lines can cause recurring clogs in our area.
               </li>
             </ul>
 
-            <h2>When to Replace Your Toilet</h2>
-            <ul className={styles.warningSigns}>
-              <li>Frequent repairs needed</li>
-              <li>Older than 20 years</li>
-              <li>Visible cracks in the porcelain</li>
-              <li>Constant running or leaking</li>
-              <li>Poor flushing performance</li>
-              <li>High water bills</li>
+            <h2>When to Repair vs. Replace</h2>
+            <p>
+              Consider these factors for Etobicoke homes:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Age of Toilet</strong>
+                Toilets over 15 years old may benefit from replacement for water efficiency.
+              </li>
+              <li>
+                <strong>Frequency of Repairs</strong>
+                Multiple repairs in a year often indicate it's time for replacement.
+              </li>
+              <li>
+                <strong>Water Usage</strong>
+                Older toilets can use 3-5 times more water than modern low-flow models.
+              </li>
+              <li>
+                <strong>Structural Issues</strong>
+                Cracks or leaks in the porcelain may require complete replacement.
+              </li>
             </ul>
 
-            <h2>Benefits of Modern Toilets</h2>
-            <ul className={styles.warningSigns}>
-              <li>Water efficiency (1.28 GPF or less)</li>
-              <li>Improved flushing technology</li>
-              <li>Better comfort and design</li>
-              <li>Quieter operation</li>
-              <li>Easier cleaning</li>
-              <li>Longer lifespan</li>
+            <h2>Our Toilet Repair Services</h2>
+            <p>
+              We offer comprehensive toilet services for Etobicoke homes:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Flush Valve Replacement</strong>
+                Upgrading to modern, water-efficient mechanisms.
+              </li>
+              <li>
+                <strong>Wax Ring Installation</strong>
+                Professional sealing to prevent leaks and odors.
+              </li>
+              <li>
+                <strong>Supply Line Updates</strong>
+                Replacing old lines with durable, modern materials.
+              </li>
+              <li>
+                <strong>Clog Removal</strong>
+                Specialized tools for stubborn clogs in older pipes.
+              </li>
+              <li>
+                <strong>Toilet Replacement</strong>
+                Expert installation of water-efficient models.
+              </li>
+            </ul>
+
+            <h2>Preventive Maintenance Tips</h2>
+            <p>
+              Protect your toilet with these local maintenance tips:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Regular Cleaning</strong>
+                Prevent hard water buildup with monthly cleaning.
+              </li>
+              <li>
+                <strong>Annual Inspection</strong>
+                Check for leaks and component wear.
+              </li>
+              <li>
+                <strong>Proper Use</strong>
+                Avoid flushing items that can cause clogs.
+              </li>
+              <li>
+                <strong>Water Pressure Check</strong>
+                Monitor for changes that could indicate issues.
+              </li>
+            </ul>
+
+            <h2>Local Considerations</h2>
+            <p>
+              Keep these Etobicoke-specific factors in mind:
+            </p>
+            <ul className={styles.benefitsList}>
+              <li>
+                <strong>Water Efficiency</strong>
+                Consider Toronto's water conservation goals.
+              </li>
+              <li>
+                <strong>Rebates</strong>
+                Check for local water-saving toilet rebates.
+              </li>
+              <li>
+                <strong>Permits</strong>
+                Some replacements may require city permits.
+              </li>
+              <li>
+                <strong>Professional Installation</strong>
+                Ensure proper installation in older homes.
+              </li>
             </ul>
 
             <div className={styles.callToAction}>
-              <h2>Professional Toilet Services</h2>
+              <h2>Need Toilet Service in Etobicoke?</h2>
               <p>
-                At Signature Plumbing, we offer comprehensive toilet services:
-              </p>
-              <ul className={styles.warningSigns}>
-                <li>Expert toilet repairs</li>
-                <li>Professional toilet installation</li>
-                <li>Toilet replacement consultation</li>
-                <li>Emergency toilet services</li>
-              </ul>
-              <p>
-                Whether you need a simple repair or a complete toilet replacement, our team of experts 
-                can help you make the right decision for your home.
+                Our experienced plumbers serve all Etobicoke neighborhoods, including Islington, Kingsway, 
+                New Toronto, and surrounding areas. We offer toilet repair, replacement, and maintenance 
+                services to keep your bathroom functioning properly.
               </p>
               <div className={styles.contactButtons}>
-                <Link href="tel:416-450-9504" className={styles.phoneButton}>
-                  📞 Call us at 416-450-9504
-                </Link>
-                <Link href="/#contact" className={styles.contactButton}>
-                  Book Online
-                </Link>
+                <a href="tel:416-450-9504" className={styles.phoneButton}>
+                  Call Now: 416-450-9504
+                </a>
+                <a href="/#contact" className={styles.contactButton}>
+                  Schedule Service
+                </a>
               </div>
             </div>
           </div>
